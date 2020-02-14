@@ -18,8 +18,8 @@
                         <tr>
                             <th style="text-align: center;">No.</th>
                             <th>Product</th>
-                            <th>Quantity</th>
                             <th>Harga</th>
+                            <th>Quantity</th>
                             <th>Total</th>
                         </tr>
                     </thead>

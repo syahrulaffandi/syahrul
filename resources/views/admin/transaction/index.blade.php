@@ -7,6 +7,10 @@
 <!-- Default box -->
     <div class="box box-primary">
         <div class="box-body">
+        <a href=" {{ route('transactions.create') }} " class="btn btn-md btn-primary">
+            <i class="fa fa-plus"></i>  Add
+        </a>
+            
            <div class="table">
                <table class="table table-striped table-hover table-responsive" id="table">
                     <thead>

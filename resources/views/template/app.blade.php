@@ -187,7 +187,7 @@
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
-
+<script src="{{URL::asset('/js/jquery.js')}}"></script>
 <!-- jQuery 2.2.3 -->
 <script src="{{URL::asset('plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
 <!-- Bootstrap 3.3.6 -->

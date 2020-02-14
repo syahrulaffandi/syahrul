@@ -53,7 +53,7 @@ Route::group(['middleware' => ['auth']], function () {
 
 
     Route::resource('transactions', 'Web\TransactionWebController', [
-        'only' => ['index', 'show', 'edit', 'update'],
+        'only' => ['index', 'show', 'edit', 'update', 'create', 'destroy'],
     ]);
 
     // Route::get('product', 'Web\ProductsController@index')->name('product.index');
